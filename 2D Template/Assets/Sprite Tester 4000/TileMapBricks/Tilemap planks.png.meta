@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f8bbca2cfc93be8469b40dd36ba50d0d
+guid: 0a1ef4c84c07e8b42aac877e1c6e995d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2464104748697903013
-    second: Colando_D_TilemapBrickWall_0
+      213: 2539539323013992263
+    second: Tilemap planks_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 682
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,133 +126,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Colando_D_TilemapBrickWall_0
+      name: Tilemap planks_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 753
+        y: 852
         width: 852
-        height: 753
+        height: 852
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b50228459cdbdcdd0800000000000000
-      internalID: -2464104748697903013
+      spriteID: 4beb3a2c9c00bc84eacf00c4435363e1
+      internalID: -1053223601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colando_D_TilemapBrickWall_1
+      name: Tilemap planks_1
       rect:
         serializedVersion: 2
         x: 852
-        y: 753
+        y: 852
         width: 852
-        height: 753
+        height: 852
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6ab610b1e7f76543b822608e1df3161
-      internalID: -1044854630
+      spriteID: bc7aa3a5889cae94790cfead5492f4c9
+      internalID: 197108313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colando_D_TilemapBrickWall_2
+      name: Tilemap planks_2
       rect:
         serializedVersion: 2
         x: 1704
-        y: 753
+        y: 852
         width: 852
-        height: 753
+        height: 852
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6625659c8f288a442bee7c5a6c256881
-      internalID: -996344646
+      spriteID: 62d0abdc3c7a8b24c84f528c85e08864
+      internalID: -1927456167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colando_D_TilemapBrickWall_3
+      name: Tilemap planks_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 852
-        height: 753
+        height: 852
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ad253d8f17298240b443f1f01ceb445
-      internalID: 1207771470
+      spriteID: 72b385d80026a5647b4c74ebeacb16fd
+      internalID: -775955514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colando_D_TilemapBrickWall_4
+      name: Tilemap planks_4
       rect:
         serializedVersion: 2
         x: 852
         y: 0
         width: 852
-        height: 753
+        height: 852
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df3bd4a55c4585642a5406edf154c273
-      internalID: 840793321
+      spriteID: 94421d0f5764aa24d83a78982a0fa4fd
+      internalID: -1825529269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Colando_D_TilemapBrickWall_5
+      name: Tilemap planks_5
       rect:
         serializedVersion: 2
         x: 1704
         y: 0
         width: 852
-        height: 753
+        height: 852
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3f69ca6b34941940b340847b65ac504
-      internalID: -1749725090
+      spriteID: 7a94ff9b82912754eac2b4b6de830795
+      internalID: 1587237544
       vertices: []
       indices: 
       edges: []
@@ -261,7 +261,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c6c23f57da6ee8d4ea4e463f2799ef5a
+    spriteID: 26a802802e2b99845b10db4481346fd2
     internalID: 0
     vertices: []
     indices: 
@@ -271,12 +271,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Colando_D_TilemapBrickWall_0: -2464104748697903013
-      Colando_D_TilemapBrickWall_1: -1044854630
-      Colando_D_TilemapBrickWall_2: -996344646
-      Colando_D_TilemapBrickWall_3: 1207771470
-      Colando_D_TilemapBrickWall_4: 840793321
-      Colando_D_TilemapBrickWall_5: -1749725090
+      Tilemap planks_0: -1053223601
+      Tilemap planks_1: 197108313
+      Tilemap planks_2: -1927456167
+      Tilemap planks_3: -775955514
+      Tilemap planks_4: -1825529269
+      Tilemap planks_5: 1587237544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

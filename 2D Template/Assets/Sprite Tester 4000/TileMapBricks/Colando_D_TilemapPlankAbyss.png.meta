@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0a1ef4c84c07e8b42aac877e1c6e995d
+guid: a424b06b459460948871e74c58b6b8b5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2539539323013992263
-    second: Tilemap planks_0
+      213: -637612990765778918
+    second: Colando_D_TilemapPlankAbyss_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilemap planks_0
+      name: Colando_D_TilemapPlankAbyss_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,21 +134,21 @@ TextureImporter:
         width: 852
         height: 852
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4beb3a2c9c00bc84eacf00c4435363e1
-      internalID: -1053223601
+      spriteID: a183b35fc5eb627f0800000000000000
+      internalID: -637612990765778918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap planks_1
+      name: Colando_D_TilemapPlankAbyss_1
       rect:
         serializedVersion: 2
         x: 852
@@ -156,21 +156,21 @@ TextureImporter:
         width: 852
         height: 852
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc7aa3a5889cae94790cfead5492f4c9
-      internalID: 197108313
+      spriteID: 2139c25f2faee19429f22beadd8c2e68
+      internalID: 1459992959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap planks_2
+      name: Colando_D_TilemapPlankAbyss_2
       rect:
         serializedVersion: 2
         x: 1704
@@ -178,21 +178,21 @@ TextureImporter:
         width: 852
         height: 852
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62d0abdc3c7a8b24c84f528c85e08864
-      internalID: -1927456167
+      spriteID: 0070c8b7e746d804aaa02c9b3ca7118b
+      internalID: 1602777759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap planks_3
+      name: Colando_D_TilemapPlankAbyss_3
       rect:
         serializedVersion: 2
         x: 0
@@ -200,21 +200,21 @@ TextureImporter:
         width: 852
         height: 852
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72b385d80026a5647b4c74ebeacb16fd
-      internalID: -775955514
+      spriteID: 4f92ecd08150c9746a82995c9a48fa74
+      internalID: -600029109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap planks_4
+      name: Colando_D_TilemapPlankAbyss_4
       rect:
         serializedVersion: 2
         x: 852
@@ -222,21 +222,21 @@ TextureImporter:
         width: 852
         height: 852
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94421d0f5764aa24d83a78982a0fa4fd
-      internalID: -1825529269
+      spriteID: 6f0496fb5aa3df1419de2c933f7a6c34
+      internalID: 1130191685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap planks_5
+      name: Colando_D_TilemapPlankAbyss_5
       rect:
         serializedVersion: 2
         x: 1704
@@ -244,15 +244,15 @@ TextureImporter:
         width: 852
         height: 852
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a94ff9b82912754eac2b4b6de830795
-      internalID: 1587237544
+      spriteID: 71c2ba08385b95740b43819ba5e16031
+      internalID: 1731673858
       vertices: []
       indices: 
       edges: []
@@ -261,7 +261,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 26a802802e2b99845b10db4481346fd2
+    spriteID: 348f8db524519124aa7769275b9de4f0
     internalID: 0
     vertices: []
     indices: 
@@ -271,12 +271,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tilemap planks_0: -1053223601
-      Tilemap planks_1: 197108313
-      Tilemap planks_2: -1927456167
-      Tilemap planks_3: -775955514
-      Tilemap planks_4: -1825529269
-      Tilemap planks_5: 1587237544
+      Colando_D_TilemapPlankAbyss_0: -637612990765778918
+      Colando_D_TilemapPlankAbyss_1: 1459992959
+      Colando_D_TilemapPlankAbyss_2: 1602777759
+      Colando_D_TilemapPlankAbyss_3: -600029109
+      Colando_D_TilemapPlankAbyss_4: 1130191685
+      Colando_D_TilemapPlankAbyss_5: 1731673858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

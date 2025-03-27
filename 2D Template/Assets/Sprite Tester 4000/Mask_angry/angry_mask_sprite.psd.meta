@@ -1,10 +1,31 @@
 fileFormatVersion: 2
-guid: 0a1ef4c84c07e8b42aac877e1c6e995d
+guid: e21a8022268ac8244acf0bb0b2cbb6fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2539539323013992263
-    second: Tilemap planks_0
+      213: 8614676995995476369
+    second: angry_mask_sprite_0
+  - first:
+      213: 6662811782992197973
+    second: angry_mask_sprite_1
+  - first:
+      213: 8199659646037123334
+    second: angry_mask_sprite_2
+  - first:
+      213: -9136432489401595651
+    second: angry_mask_sprite_3
+  - first:
+      213: 1889645953244164509
+    second: angry_mask_sprite_4
+  - first:
+      213: 7981773008930260263
+    second: angry_mask_sprite_5
+  - first:
+      213: -6509443318451771189
+    second: angry_mask_sprite_6
+  - first:
+      213: -2390879921079886774
+    second: angry_mask_sprite_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 852
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,133 +147,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilemap planks_0
+      name: angry_mask_sprite_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 852
-        width: 852
-        height: 852
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4beb3a2c9c00bc84eacf00c4435363e1
-      internalID: -1053223601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap planks_1
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 852
-        width: 852
-        height: 852
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc7aa3a5889cae94790cfead5492f4c9
-      internalID: 197108313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap planks_2
-      rect:
-        serializedVersion: 2
-        x: 1704
-        y: 852
-        width: 852
-        height: 852
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62d0abdc3c7a8b24c84f528c85e08864
-      internalID: -1927456167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap planks_3
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 83
         y: 0
-        width: 852
-        height: 852
+        width: 26
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 72b385d80026a5647b4c74ebeacb16fd
-      internalID: -775955514
+      spriteID: 1912a09d51b7d8770800000000000000
+      internalID: 8614676995995476369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap planks_4
+      name: angry_mask_sprite_1
       rect:
         serializedVersion: 2
-        x: 852
+        x: 5
         y: 0
-        width: 852
-        height: 852
+        width: 26
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 94421d0f5764aa24d83a78982a0fa4fd
-      internalID: -1825529269
+      spriteID: 559798af300177c50800000000000000
+      internalID: 6662811782992197973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap planks_5
+      name: angry_mask_sprite_2
       rect:
         serializedVersion: 2
-        x: 1704
+        x: 31
         y: 0
-        width: 852
-        height: 852
+        width: 26
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7a94ff9b82912754eac2b4b6de830795
-      internalID: 1587237544
+      spriteID: 601e521210b0bc170800000000000000
+      internalID: 8199659646037123334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_mask_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df841eace0fd43180800000000000000
+      internalID: -9136432489401595651
       vertices: []
       indices: 
       edges: []
@@ -261,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 26a802802e2b99845b10db4481346fd2
+    spriteID: 1bace5780a4fa1f44a55b9e14a616714
     internalID: 0
     vertices: []
     indices: 
@@ -271,12 +248,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tilemap planks_0: -1053223601
-      Tilemap planks_1: 197108313
-      Tilemap planks_2: -1927456167
-      Tilemap planks_3: -775955514
-      Tilemap planks_4: -1825529269
-      Tilemap planks_5: 1587237544
+      angry_mask_sprite_0: 8614676995995476369
+      angry_mask_sprite_1: 6662811782992197973
+      angry_mask_sprite_2: 8199659646037123334
+      angry_mask_sprite_3: -9136432489401595651
+      angry_mask_sprite_4: 1889645953244164509
+      angry_mask_sprite_5: 7981773008930260263
+      angry_mask_sprite_6: -6509443318451771189
+      angry_mask_sprite_7: -2390879921079886774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

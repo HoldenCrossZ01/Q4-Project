@@ -150,9 +150,9 @@ TextureImporter:
       name: Happy_mask_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 7
         y: 0
-        width: 26
+        width: 22
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -172,9 +172,9 @@ TextureImporter:
       name: Happy_mask_1
       rect:
         serializedVersion: 2
-        x: 31
+        x: 33
         y: 0
-        width: 26
+        width: 22
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -194,9 +194,9 @@ TextureImporter:
       name: Happy_mask_2
       rect:
         serializedVersion: 2
-        x: 59
+        x: 61
         y: 0
-        width: 26
+        width: 22
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -218,7 +218,7 @@ TextureImporter:
         serializedVersion: 2
         x: 85
         y: 0
-        width: 23
+        width: 22
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}

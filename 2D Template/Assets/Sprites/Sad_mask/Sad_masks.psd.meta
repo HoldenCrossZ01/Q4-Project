@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: e21a8022268ac8244acf0bb0b2cbb6fc
+guid: f69d650720386814a8003a72c0fcdea1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8614676995995476369
-    second: angry_mask_sprite_0
+      213: 6443726264063001665
+    second: Sad_masks_0
   - first:
-      213: 6662811782992197973
-    second: angry_mask_sprite_1
+      213: -733632098214933517
+    second: Sad_masks_1
   - first:
-      213: 8199659646037123334
-    second: angry_mask_sprite_2
+      213: -8147879482584380288
+    second: Sad_masks_2
   - first:
-      213: -9136432489401595651
-    second: angry_mask_sprite_3
+      213: 4213903805554056195
+    second: Sad_masks_3
   - first:
-      213: 1889645953244164509
-    second: angry_mask_sprite_4
+      213: 8941643348595441238
+    second: Sad_masks_4
   - first:
-      213: 7981773008930260263
-    second: angry_mask_sprite_5
+      213: -6509868943122727170
+    second: Sad_masks_5
   - first:
-      213: -6509443318451771189
-    second: angry_mask_sprite_6
+      213: -6134565725280263372
+    second: Sad_masks_6
   - first:
-      213: -2390879921079886774
-    second: angry_mask_sprite_7
+      213: 6168069667883596326
+    second: Sad_masks_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,89 +147,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: angry_mask_sprite_0
+      name: Sad_masks_0
       rect:
         serializedVersion: 2
-        x: 83
+        x: 8
         y: 0
-        width: 26
-        height: 48
+        width: 20
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1912a09d51b7d8770800000000000000
-      internalID: 8614676995995476369
+      spriteID: bb60b9480d815834cb3dbde682616e37
+      internalID: 6443726264063001665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: angry_mask_sprite_1
+      name: Sad_masks_1
       rect:
         serializedVersion: 2
-        x: 5
+        x: 32
         y: 0
-        width: 26
-        height: 48
+        width: 20
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 559798af300177c50800000000000000
-      internalID: 6662811782992197973
+      spriteID: 90ffb2137a3fb7b4c84a881fa0c1e9a5
+      internalID: -733632098214933517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: angry_mask_sprite_2
+      name: Sad_masks_2
       rect:
         serializedVersion: 2
-        x: 31
+        x: 58
         y: 0
-        width: 26
-        height: 48
+        width: 20
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 601e521210b0bc170800000000000000
-      internalID: 8199659646037123334
+      spriteID: 0cdcb166b472da14eb5a8d1e6c3f26f6
+      internalID: -8147879482584380288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: angry_mask_sprite_3
+      name: Sad_masks_3
       rect:
         serializedVersion: 2
-        x: 57
+        x: 80
         y: 0
-        width: 26
-        height: 48
+        width: 20
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: df841eace0fd43180800000000000000
-      internalID: -9136432489401595651
+      spriteID: 682648f2a1b37c44aaf0c6a555f02151
+      internalID: 4213903805554056195
       vertices: []
       indices: 
       edges: []
@@ -238,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1bace5780a4fa1f44a55b9e14a616714
+    spriteID: 1a8bb5ed29e3e64468a146bbf096684d
     internalID: 0
     vertices: []
     indices: 
@@ -248,14 +248,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      angry_mask_sprite_0: 8614676995995476369
-      angry_mask_sprite_1: 6662811782992197973
-      angry_mask_sprite_2: 8199659646037123334
-      angry_mask_sprite_3: -9136432489401595651
-      angry_mask_sprite_4: 1889645953244164509
-      angry_mask_sprite_5: 7981773008930260263
-      angry_mask_sprite_6: -6509443318451771189
-      angry_mask_sprite_7: -2390879921079886774
+      Sad_masks_0: 6443726264063001665
+      Sad_masks_1: -733632098214933517
+      Sad_masks_2: -8147879482584380288
+      Sad_masks_3: 4213903805554056195
+      Sad_masks_4: 8941643348595441238
+      Sad_masks_5: -6509868943122727170
+      Sad_masks_6: -6134565725280263372
+      Sad_masks_7: 6168069667883596326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

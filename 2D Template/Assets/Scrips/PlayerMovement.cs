@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
 
-    public float moveSpeed
+    public float moveSpeed_;
 
     private Vector2 _moveDirection;
 
@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.Velocity = new Vector2(x:_moveDirection.x * moveSpeed, y:_moveDirection.y * moveSpeed);
+        rb.linearVelocity = new Vector2(x:_moveDirection.x * moveSpeed_, y:_moveDirection.y * moveSpeed_);
     }
 
 }

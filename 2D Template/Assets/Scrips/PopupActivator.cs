@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class TesTScript : MonoBehaviour
+public class PopupActivator : MonoBehaviour
 {
 
-    [SerializeField] private ConfirmationWindow myConfirmationWindow;
+    [SerializeField] private QuitConfirm myConfirmationWindow;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

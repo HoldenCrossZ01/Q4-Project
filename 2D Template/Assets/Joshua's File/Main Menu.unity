@@ -454,8 +454,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -619,7 +619,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1681668859}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TesTScript, Assembly-CSharp
         m_MethodName: OpenConfirmationWindow
         m_Mode: 5
@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2003064537}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: button, Assembly-CSharp
         m_MethodName: Credits
         m_Mode: 1
@@ -1478,7 +1478,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2003064537}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: button, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
@@ -1566,7 +1566,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 10.170013, y: 15.270004}
+  m_AnchoredPosition: {x: 10.170044, y: 15.27002}
   m_SizeDelta: {x: -407.99, y: -122.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1437910486
@@ -1616,7 +1616,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1437910484}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25df837765b07614384080f680b670db, type: 3}
+  m_Script: {fileID: 11500000, guid: 246e027c5c218ea46abe7649b2941bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   yesButton: {fileID: 555795181}
@@ -1752,7 +1752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1681668860}
-  - component: {fileID: 1681668859}
+  - component: {fileID: 1681668861}
   m_Layer: 0
   m_Name: TestObject
   m_TagString: Untagged
@@ -1760,19 +1760,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1681668859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1681668858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcae130b0f30a144978d94780561015, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myConfirmationWindow: {fileID: 1437910488}
 --- !u!4 &1681668860
 Transform:
   m_ObjectHideFlags: 0
@@ -1789,6 +1776,19 @@ Transform:
   - {fileID: 2003064538}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1681668861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681668858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7265aa4c0b83f4384da5b84a63dcf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myConfirmationWindow: {fileID: 1437910488}
 --- !u!1 &1745875831
 GameObject:
   m_ObjectHideFlags: 0
@@ -2005,7 +2005,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2003064538}
-  - component: {fileID: 2003064537}
+  - component: {fileID: 2003064539}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -2013,18 +2013,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2003064537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003064536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 294c416d3a13197419a5a425a61e46f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2003064538
 Transform:
   m_ObjectHideFlags: 0
@@ -2042,6 +2030,18 @@ Transform:
   - {fileID: 1775675820}
   m_Father: {fileID: 1681668860}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2003064539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003064536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb42d01f53be5424f99a3c6e71b7c0da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2112335638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,8 +2101,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: YES
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

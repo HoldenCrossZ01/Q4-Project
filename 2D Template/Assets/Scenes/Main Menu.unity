@@ -1008,8 +1008,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TesTScript, Assembly-CSharp
+      - m_Target: {fileID: 1681668861}
+        m_TargetAssemblyTypeName: PopupActivator, Assembly-CSharp
         m_MethodName: OpenConfirmationWindow
         m_Mode: 5
         m_Arguments:
@@ -1141,8 +1141,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: button, Assembly-CSharp
+      - m_Target: {fileID: 2003064539}
+        m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
         m_MethodName: Credits
         m_Mode: 1
         m_Arguments:
@@ -1478,8 +1478,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: button, Assembly-CSharp
+      - m_Target: {fileID: 2003064539}
+        m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:

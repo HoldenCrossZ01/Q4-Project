@@ -72,4 +72,9 @@ public class PlayerMovement : MonoBehaviour
     {
         return Physics2D.Raycast(transform.position, Vector2.down, 0.1f, groundLayer);
     }
+    public void Move(InputAction.CallbackContext context)
+    {
+        Vector2 vel = context.ReadValue<Vector2>();
+
+    }
 }

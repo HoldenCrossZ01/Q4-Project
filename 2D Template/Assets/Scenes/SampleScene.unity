@@ -1278,7 +1278,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1617450142}
   moveSpeed_: 6
+  jumpForce: 5
+  dashSpeed: 10
+  dashDuration: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
   move: {fileID: -8580779556725419194, guid: 0b5e744d209b0ee4e9ee7011b9bb7b82, type: 3}
+  jump: {fileID: -3839651848524367669, guid: 0b5e744d209b0ee4e9ee7011b9bb7b82, type: 3}
+  dash: {fileID: 0}
 --- !u!114 &1617450145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1391,7 +1399,23 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1617450139}
+      - m_Target: {fileID: 1617450144}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2437e320-244c-426d-9491-df56c20ba1da
+    m_ActionName: 'GamePlay/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
@@ -1403,11 +1427,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: 2437e320-244c-426d-9491-df56c20ba1da
-    m_ActionName: 'GamePlay/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 4f0d7014-93a5-47fe-b223-b4540efa2ee9
+    m_ActionId: 0f08b37c-445b-406a-9224-92498f78fda6
     m_ActionName: 'GamePlay/Jump[/Keyboard/space]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 

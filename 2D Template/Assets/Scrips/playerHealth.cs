@@ -7,11 +7,16 @@ public class playerHealth : MonoBehaviour
     public float maxHealth;
     public Image healthBar;
 
+    public float stam;
+    public float maxStam;
+    public Image stamBar;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         health = maxHealth;
+
+        stam = maxStam;
     }
 
     // Update is called once per frame
@@ -23,5 +28,8 @@ public class playerHealth : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        stamBar.fillAmount = Mathf.Clamp(stam / maxStam, 0, 1);
+
     }
 }

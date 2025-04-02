@@ -17,17 +17,6 @@
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "5f2d2ab2-ac46-4b97-bf8f-74a2a1c3732a",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "2D Vector",
                     "id": "089aba94-5d3d-4873-940d-200f4bb48481",
                     "path": "2DVector",
@@ -75,6 +64,17 @@
                     "name": "right",
                     "id": "1c277be6-eeab-4721-b115-dbce1236de21",
                     "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Up",
+                    "id": "c9644dc1-0546-4c94-82e3-f94ebdd5ea1d",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

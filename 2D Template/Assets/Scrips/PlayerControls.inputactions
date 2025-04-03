@@ -17,7 +17,7 @@
                 {
                     "name": "Jump",
                     "type": "Button",
-                    "id": "0f08b37c-445b-406a-9224-92498f78fda6",
+                    "id": "7b535ede-466a-4778-aad7-ec28af83ee03",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -81,23 +81,12 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Up",
-                    "id": "c9644dc1-0546-4c94-82e3-f94ebdd5ea1d",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "",
-                    "id": "3dd70302-18f4-406b-aafa-f63ea59a9be9",
+                    "id": "82e52915-3c52-4bc0-a069-b4d8eb702d71",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";KeyBoard",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false

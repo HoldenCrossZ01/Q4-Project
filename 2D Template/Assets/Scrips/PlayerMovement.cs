@@ -1,80 +1,69 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+[RequireComponent(typeof(Rigidbody2D))] //Script can only be applied to GO's with rgbd2D
+[RequireComponent(typeof(PlayerInput))]
 public class PlayerMovement : MonoBehaviour
 {
-    public Rigidbody2D rb;
-    public float moveSpeed_;
-    public float jumpForce = 5f;
-    public float dashSpeed = 10f;
-    public float dashDuration = 0.2f;
-    public LayerMask groundLayer;
+    public float movementSpeed;
+    
+    public float jumpHeight;
+    private Rigidbody2D _rb;
+    private Vector2 _moveAmount;
+    private bool isJumping = false;
+    
 
-    private Vector2 _moveDirection;
-    private bool _isDashing;
-
-    public InputActionReference move;
-    public InputActionReference jump;
-    public InputActionReference dash;
-
-    private void Start()
+    void Awake()
     {
-        if (rb == null)
-        {
-            rb = GetComponent<Rigidbody2D>();
-            if (rb == null)
-                Debug.LogError("Rigidbody2D is missing from Player!");
-        }
+        //Unity prefers _rb to rb, and this section will grasp onto the rigidbody
+        _rb = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
+
+    void Update()
     {
-        if (move == null || move.action == null)
-        {
-            Debug.LogError("Move InputActionReference is not assigned!");
-            return;
-        }
-        _moveDirection = move.action.ReadValue<Vector2>();
+        //Apply the velocity to the Y axis
+        
 
-        if (jump != null && jump.action != null && jump.action.triggered && IsGrounded())
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        }
+        //Apply the velocity to the X axis
+        _rb.linearVelocityX = _moveAmount.x * movementSpeed;
+    }
 
-        //if (dash != null && dash.action != null && dash.action.IsPressed() && !_isDashing)
+    //This function will read our movement input and apply it to apply to a variable inside the script
+    public void HandleMovement(InputAction.CallbackContext ctx)
+    {
+        _moveAmount = ctx.ReadValue<Vector2>();
+
+
+    }
+    public void HandleJump(InputAction.CallbackContext ctx)
+    {
+        if (isJumping == false)
+        {
+            if (ctx.ReadValue<float>() == 1)
+            {
+
+                _rb.AddForce(Vector2.up * jumpHeight);
+                isJumping = true;
+
+            }
+        }
+        //if (ctx.ReadValue<float>()==1) 
         //{
-        //    StartDash();
+        //  _rb.AddForce(Vector2.up * jumpHeight);
         //}
     }
 
-    //private void FixedUpdate()
-    //{
-    //    if (rb == null) return;
-    //    if (!_isDashing)
-    //    {
-    //        rb.linearVelocity = new Vector2(_moveDirection.x * moveSpeed_, rb.linearVelocity.y);
-    //    }
-    //}
-
-    //private void StartDash()
-    //{
-    //    _isDashing = true;
-    //    rb.linearVelocity = new Vector2(transform.localScale.x * dashSpeed, rb.linearVelocity.y);
-    //    Invoke(nameof(StopDash), dashDuration);
-    //}
-
-    //private void StopDash()
-    //{
-    //    _isDashing = false;
-    //}
-
-    private bool IsGrounded()
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        return Physics2D.Raycast(transform.position, Vector2.down, 0.1f, groundLayer);
-    }
-    public void Move(InputAction.CallbackContext context)
-    {
-        Vector2 vel = context.ReadValue<Vector2>();
+        
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isJumping = false;
+        }
 
     }
+
+
 }

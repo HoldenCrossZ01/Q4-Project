@@ -7,7 +7,8 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     public float movementSpeed;
-    
+    public float dashPower;
+    public int dashStamCost;
     public float jumpHeight;
     private Rigidbody2D _rb;
     private Vector2 _moveAmount;
@@ -49,10 +50,30 @@ public class PlayerMovement : MonoBehaviour
 
             }
         }
-        //if (ctx.ReadValue<float>()==1) 
-        //{
-        //  _rb.AddForce(Vector2.up * jumpHeight);
-        //}
+       
+    }
+
+    public void HandleDash(InputAction.CallbackContext ctx)
+    {
+        if (gameObject.GetComponent<playerHealth>().stam > 0)
+        {
+
+            if (_moveAmount.x > 0)
+            {
+                _rb.AddForce(Vector2.right * dashPower);
+                gameObject.GetComponent<playerHealth>().stam -= dashStamCost;
+
+            }
+            else
+            {
+                _rb.AddForce(Vector2.left * dashPower);
+                gameObject.GetComponent<playerHealth>().stam -= dashStamCost;
+            }
+
+        }
+       
+
+
     }
 
     private void OnCollisionEnter2D(Collision2D other)

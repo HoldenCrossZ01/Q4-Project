@@ -25,8 +25,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        //Apply the velocity to the Y axis
-        
 
         //Apply the velocity to the X axis
         _rb.linearVelocityX = _moveAmount.x * movementSpeed;

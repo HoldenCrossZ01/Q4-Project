@@ -288,7 +288,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 10
-  dashPower: 10000
+  dashPower: 1000
+  dashStamCost: 0
   jumpHeight: 1000
 --- !u!114 &156529042
 MonoBehaviour:
@@ -1124,7 +1125,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &797453980
 SpriteRenderer:
   m_ObjectHideFlags: 0

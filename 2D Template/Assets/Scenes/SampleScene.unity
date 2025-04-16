@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 156529042}
   - component: {fileID: 156529041}
   - component: {fileID: 156529047}
+  - component: {fileID: 156529048}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -364,6 +365,14 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 59b52c03-fd25-47e6-9461-d0de492af337
     m_ActionName: 'GamePlay/Dash[/Keyboard/shift]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f5fd9cd7-befc-469c-bbe8-fefc76d64721
+    m_ActionName: GamePlay/New action
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3fe70dcd-6147-401e-9757-29be0c31f745
+    m_ActionName: GamePlay/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: GamePlay
@@ -530,7 +539,8 @@ Transform:
   m_LocalPosition: {x: 4.31, y: 0.72, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1438428127}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &156529047
@@ -551,6 +561,25 @@ MonoBehaviour:
   stam: 0
   maxStam: 100
   stamBar: {fileID: 245255782}
+--- !u!114 &156529048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156529040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef55660e7df0668489b05306b6a25c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTimeBtwAttack: 0.3
+  attackPos: {fileID: 1438428127}
+  attackRange: 0
+  damage: 0
+  whatIsEnemies:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &220670244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,6 +1472,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1438428126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1438428127}
+  m_Layer: 0
+  m_Name: AttackPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1438428127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438428126}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.06, y: 0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 156529046}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1861941721
 GameObject:

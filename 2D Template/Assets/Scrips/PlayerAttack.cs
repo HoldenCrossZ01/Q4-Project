@@ -1,35 +1,48 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+using TMPro;
 public class PlayerAttack : MonoBehaviour
 {
 
-    private float timeBtwAttack;
-    public float startTimeBtwAttack;
+   public TextMeshProUGUI timerText;
+   public float remainingTime;
 
     public Transform attackPos;
-    public int attackRange;
+    public float attackRange;
     public int damage;
 
-    public LayerMask whatIsEnemies;
-
-    // Update is called once per frame
-    public void HandleAttack(InputAction.CallbackContext ctx)
+    void Update()
     {
-        if(timeBtwAttack <= 0)
-        {
-          Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, whatIsEnemies, attackRange);
-          for (int i = 0; i < enemiesToDamage.Length; i++) 
-          {
-            enemiesToDamage[i].GetComponent<EnemyStats>().health -= damage;
-          }
-          timeBtwAttack = startTimeBtwAttack;
-        }
-        else 
-        {
-          timeBtwAttack -= Time.deltaTime;
-        }
+      attackPos.gameObject.GetComponent<Weapon>().atk = damage;
+
+      if (remainingTime > 0)
+      {
+        remainingTime -= Time.deltaTime;
+      }
+      else if (remainingTime < 0)
+      {
+        remainingTime = 0;
+      }
+      if (remainingTime <= 0.85) 
+      { 
+        attackPos.gameObject.SetActive(false);
+      }
+
+      int minutes = Mathf.FloorToInt(remainingTime / 60);
+      int seconds = Mathf.FloorToInt(remainingTime % 60);
+      timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
+    
+    public void HandleAttack(InputAction.CallbackContext ctx) 
+    {
+      if (remainingTime <= 0)
+      {
+        remainingTime += 1;
+        attackPos.gameObject.SetActive(true);
+      }
+    }
+    
     void OnDrawGizmosSelected() 
     {
       Gizmos.color = Color.red;

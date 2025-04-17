@@ -4,7 +4,7 @@ public class Damage : MonoBehaviour
 {
 
     //public playerHealth pHealth;
-    public int damage;
+    public int dmg;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,7 +23,7 @@ public class Damage : MonoBehaviour
         
         if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<playerHealth>().health -= damage;
+            other.gameObject.GetComponent<playerHealth>().health -= dmg;
         }
 
     }

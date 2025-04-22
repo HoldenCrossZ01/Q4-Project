@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rb;
     private Vector2 _moveAmount;
     private bool isJumping = false;
+    private bool facingRight;
     
 
     void Awake()
@@ -25,9 +26,25 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-
         //Apply the velocity to the X axis
         _rb.linearVelocityX = _moveAmount.x * movementSpeed;
+
+         if(_rb.linearVelocity.x < 0 && facingRight) 
+        {
+           Flip();
+        }
+        else if(_rb.linearVelocity.x > 0 && !facingRight) 
+        {
+            Flip();
+        }
+    }
+    void Flip()
+    {
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+
+        facingRight = !facingRight;
     }
 
     //This function will read our movement input and apply it to apply to a variable inside the script
@@ -77,12 +94,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        
         if (other.gameObject.CompareTag("Ground"))
         {
             isJumping = false;
         }
-
     }
-
 }

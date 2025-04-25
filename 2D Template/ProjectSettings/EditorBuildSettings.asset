@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Joshua's File/Main Menu.unity
+    guid: 527099e5fdbf5c3458aa068bb20187bd
+  - enabled: 1
+    path: Assets/Scenes/Level 1 test.unity
+    guid: d87b8a66214ac8e4d9fa458dd9bd29de
+  - enabled: 1
+    path: Assets/Scenes/Level2 test.unity
+    guid: a4ebd01d9308a6745a79e948fca8a535
+  - enabled: 1
+    path: Assets/Scenes/Level3 test.unity
+    guid: 8dbcedc3378ab2643b55abf33e2f3e46
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7b13110e36c974f8c2c46c303e674b, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 0b5e744d209b0ee4e9ee7011b9bb7b82, type: 3}

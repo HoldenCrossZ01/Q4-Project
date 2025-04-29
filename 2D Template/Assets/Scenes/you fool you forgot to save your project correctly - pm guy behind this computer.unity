@@ -610,6 +610,7 @@ GameObject:
   - component: {fileID: 954731266}
   - component: {fileID: 954731270}
   - component: {fileID: 954731271}
+  - component: {fileID: 954731272}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Player
@@ -765,10 +766,8 @@ MonoBehaviour:
   navAgent: {fileID: 954731271}
   player: {fileID: 690306160}
   groundLayer:
-    serializedVersion: 2
     m_Bits: 64
   playerLayer:
-    serializedVersion: 2
     m_Bits: 0
   health: 0
   walkPointRange: 0
@@ -778,6 +777,10 @@ MonoBehaviour:
   damage: 0
   animator: {fileID: 0}
   hitEffect: {fileID: 0}
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointSet: 0
+  alreadyAttacked: 0
+  takeDamage: 0
 --- !u!195 &954731271
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -800,6 +803,20 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &954731272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954731265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b9ccd2eac22c141bd75f4ba211a406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 690306157}
+  speed: 1
 --- !u!1 &1696911566
 GameObject:
   m_ObjectHideFlags: 0

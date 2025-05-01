@@ -19,7 +19,7 @@ public class PlayerAttack : MonoBehaviour
       int seconds = Mathf.FloorToInt(remainingTime % 60);
       timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-      attackPos.gameObject.GetComponent<Weapon>().atk = damage;
+      
 
       if (remainingTime > 0)
       {
@@ -29,8 +29,8 @@ public class PlayerAttack : MonoBehaviour
       {
         remainingTime = 0;
       }
-
-
+      
+      attackPos.gameObject.GetComponent<Weapon>().atk = damage;
 
       if (remainingTime <= 0.13) 
       { 

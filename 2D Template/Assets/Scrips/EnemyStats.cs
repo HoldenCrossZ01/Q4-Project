@@ -8,6 +8,8 @@ public class EnemyStats : MonoBehaviour
     public float health;
     public float maxHealth;
    
+    private ParticleSystem testParticleSystem = default;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,7 +21,13 @@ public class EnemyStats : MonoBehaviour
     {
         if(health <= 0)
         {
-            Destroy(gameObject);
+            EnemyDeathEvent();
         }
+    }
+
+    void EnemyDeathEvent()
+    {
+        testParticleSystem.Play();
+        Destroy(gameObject);
     }
 }

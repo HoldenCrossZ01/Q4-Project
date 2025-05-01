@@ -76,13 +76,13 @@ public class PlayerMovement : MonoBehaviour
 
             if (_moveAmount.x > 0)
             {
-                _rb.AddForce(Vector2.right * dashPower);
+                _rb.linearVelocity = Vector2.right * dashPower;
                 gameObject.GetComponent<playerHealth>().stam -= dashStamCost;
 
             }
             else
             {
-                _rb.AddForce(Vector2.left * dashPower);
+                _rb.linearVelocity = Vector2.left * dashPower;
                 gameObject.GetComponent<playerHealth>().stam -= dashStamCost;
             }
 

@@ -1,22 +1,31 @@
-using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static SceneController instance;
+
+    private void awake()
     {
-        
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+ public void NextLevel()
     {
-        
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public static implicit operator SceneController(FinishPoint v)
+    public void LoadScene(string sceneName)
     {
-        throw new NotImplementedException();
+        SceneManager.LoadSceneAsync(sceneName);
     }
+
 }

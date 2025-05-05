@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: bdfc2508a9163bc44b2357260d20d914
+guid: fe01c58fdecbaf74d9c495f09ca240cf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -587994349203448363
-    second: frame5_0
+      213: -8745385707882881981
+    second: jester_running_withdagger1_0
+  - first:
+      213: 8917547121014083527
+    second: jester_running_withdagger1_1
+  - first:
+      213: 8697729818197575053
+    second: jester_running_withdagger1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frame5_0
+      name: jester_running_withdagger1_0
       rect:
         serializedVersion: 2
-        x: 14
+        x: 0
         y: 0
-        width: 131
-        height: 133
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +147,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5dd9ac5314607d7f0800000000000000
-      internalID: -587994349203448363
+      spriteID: 34cdcd1a80622a680800000000000000
+      internalID: -8745385707882881981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester_running_withdagger1_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf0adffbdd71cb70800000000000000
+      internalID: 8917547121014083527
       vertices: []
       indices: 
       edges: []
@@ -151,7 +179,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 29b53fb2994673a4f859f4915a894d2d
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +188,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jester_running_withdagger1_0: -8745385707882881981
+      jester_running_withdagger1_1: 8917547121014083527
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

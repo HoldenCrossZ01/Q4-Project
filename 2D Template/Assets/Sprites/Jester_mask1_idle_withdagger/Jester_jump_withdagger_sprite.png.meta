@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 08faf46c7316c80418121df6dba89873
+guid: 2b8c6471b1b207048900f2f91c07db0f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3094639213287121801
-    second: jester_walk3_0
+      213: 7822246663703040863
+    second: Jester_jump_withdagger_sprite_0
+  - first:
+      213: -2418183747040871631
+    second: Jester_jump_withdagger_sprite_1
+  - first:
+      213: -5285547680531467603
+    second: Jester_jump_withdagger_sprite_2
+  - first:
+      213: 9179286235057099910
+    second: Jester_jump_withdagger_sprite_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jester_walk3_0
+      name: Jester_jump_withdagger_sprite_0
       rect:
         serializedVersion: 2
-        x: 27
+        x: 0
         y: 0
-        width: 103
-        height: 133
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77cd6081802ad05d0800000000000000
-      internalID: -3094639213287121801
+      spriteID: f53118785e33e8c60800000000000000
+      internalID: 7822246663703040863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jester_jump_withdagger_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b7104b1b2e07ed0800000000000000
+      internalID: -2418183747040871631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jester_jump_withdagger_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2388a7366f5a6b0800000000000000
+      internalID: -5285547680531467603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jester_jump_withdagger_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68416346230636f70800000000000000
+      internalID: 9179286235057099910
       vertices: []
       indices: 
       edges: []
@@ -151,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 694f8637cd9abf84ab83ab5cb46f949e
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jester_jump_withdagger_sprite_0: 7822246663703040863
+      Jester_jump_withdagger_sprite_1: -2418183747040871631
+      Jester_jump_withdagger_sprite_2: -5285547680531467603
+      Jester_jump_withdagger_sprite_3: 9179286235057099910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

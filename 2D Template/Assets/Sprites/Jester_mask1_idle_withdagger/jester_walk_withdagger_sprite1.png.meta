@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 99355eb29d062dd43adbf186529e9d93
+guid: 0d80418a4cfb0c84fad7d74b2cf30b8a
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -144,10 +144,10 @@ TextureImporter:
       name: jester_walk_withdagger_sprite1_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 0
-        width: 127
-        height: 132
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: jester_walk_withdagger_sprite1_1
       rect:
         serializedVersion: 2
-        x: 181
-        y: 7
-        width: 128
-        height: 136
+        x: 160
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: jester_walk_withdagger_sprite1_2
       rect:
         serializedVersion: 2
-        x: 346
+        x: 320
         y: 0
-        width: 103
-        height: 133
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: jester_walk_withdagger_sprite1_3
       rect:
         serializedVersion: 2
-        x: 511
+        x: 480
         y: 0
-        width: 58
-        height: 132
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: jester_walk_withdagger_sprite1_4
       rect:
         serializedVersion: 2
-        x: 651
+        x: 640
         y: 0
-        width: 131
-        height: 132
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: jester_walk_withdagger_sprite1_5
       rect:
         serializedVersion: 2
-        x: 819
-        y: 7
-        width: 133
-        height: 135
+        x: 800
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2ae1369168e75b94a9b21dbbb348d837
     internalID: 0
     vertices: []
     indices: 
@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jester_walk_withdagger_sprite1_0: 6628261404242577872
+      jester_walk_withdagger_sprite1_1: 3057463587800033683
+      jester_walk_withdagger_sprite1_2: 6149121889490645993
+      jester_walk_withdagger_sprite1_3: -3655948518458774925
+      jester_walk_withdagger_sprite1_4: 182053247501004606
+      jester_walk_withdagger_sprite1_5: -1090361081510858317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

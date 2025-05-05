@@ -1070,6 +1070,7 @@ GameObject:
   - component: {fileID: 744754755}
   - component: {fileID: 744754754}
   - component: {fileID: 744754753}
+  - component: {fileID: 744754756}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -1141,9 +1142,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2003064539}
-        m_TargetAssemblyTypeName: button, Assembly-CSharp
-        m_MethodName: Credits
+      - m_Target: {fileID: 1268890080}
+        m_TargetAssemblyTypeName: Secene, Assembly-CSharp
+        m_MethodName: CreditLoader
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1191,6 +1192,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744754751}
   m_CullTransparentMesh: 1
+--- !u!114 &744754756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744754751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506402aa54deeef4cb9277eb3b4de4e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1051723837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,9 +1689,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1268890080}
+      - m_Target: {fileID: 1268890075}
         m_TargetAssemblyTypeName: Secene, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1792,14 +1805,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5986101, g: 0.57627267, b: 0.6981132, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2276114695995930089, guid: d2a2ebae861dfff48a650627ec9611d5, type: 3}
+  m_Sprite: {fileID: 5589616708874710389, guid: e0bada7909a5cd548929ceecce000098, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

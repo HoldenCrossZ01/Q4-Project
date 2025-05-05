@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Joshua's File/Main Menu.unity
     guid: 527099e5fdbf5c3458aa068bb20187bd
@@ -20,6 +17,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level3 test.unity
     guid: 8dbcedc3378ab2643b55abf33e2f3e46
+  - enabled: 1
+    path: Assets/Joshua's File/CreditScenes/Laina.unity
+    guid: 5657413cc56b694408b63213375dd498
+  - enabled: 1
+    path: Assets/Joshua's File/CreditScenes/Coda.unity
+    guid: 585ab769ba69d1643b5de2bfc22313e9
+  - enabled: 1
+    path: Assets/Joshua's File/CreditScenes/Thomas.unity
+    guid: 5b2e7a410c9c09b4b8e201726622ee77
+  - enabled: 1
+    path: Assets/Joshua's File/CreditScenes/Joshua.unity
+    guid: d7df143c482da464dbb6cc845c72c82b
+  - enabled: 1
+    path: Assets/Joshua's File/CreditScenes/Meadow.unity
+    guid: aab68da94d6fb7048b84aa781bcd60ff
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7b13110e36c974f8c2c46c303e674b, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 0b5e744d209b0ee4e9ee7011b9bb7b82, type: 3}

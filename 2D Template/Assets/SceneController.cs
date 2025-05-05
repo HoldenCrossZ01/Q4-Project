@@ -5,7 +5,7 @@ public class SceneController : MonoBehaviour
 {
     public static SceneController instance;
 
-    private void awake()
+    private void Awake()
     {
         if (instance == null)
         {

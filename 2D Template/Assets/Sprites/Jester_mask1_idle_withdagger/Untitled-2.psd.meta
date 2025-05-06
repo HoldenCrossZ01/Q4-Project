@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: e0bada7909a5cd548929ceecce000098
+guid: 7973a0bcee77f2c49ac36c96cc491438
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5589616708874710389
-    second: PopupBG_0
+      213: -5392625257635239999
+    second: Untitled-2_0
+  - first:
+      213: -4548455104902304520
+    second: Untitled-2_1
+  - first:
+      213: -340510569268801026
+    second: Untitled-2_2
+  - first:
+      213: 33363725635070822
+    second: Untitled-2_3
+  - first:
+      213: 2607614108378703750
+    second: Untitled-2_4
+  - first:
+      213: 2647721087300645799
+    second: Untitled-2_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PopupBG_0
+      name: Untitled-2_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 49
-        width: 1791
-        height: 981
+        x: 1
+        y: 0
+        width: 127
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +156,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57da01b18ce429d40800000000000000
-      internalID: 5589616708874710389
+      spriteID: 1c72ad746eb8925b0800000000000000
+      internalID: -5392625257635239999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-2_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 3
+        width: 128
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc6c7b4e24a0e0c0800000000000000
+      internalID: -4548455104902304520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-2_2
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 103
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1977cf073464bf0800000000000000
+      internalID: -340510569268801026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-2_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 58
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bacd6b128867000800000000000000
+      internalID: 33363725635070822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-2_4
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 131
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687a531473b103420800000000000000
+      internalID: 2607614108378703750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Untitled-2_5
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 5
+        width: 133
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3bdd8fc489eb420800000000000000
+      internalID: 2647721087300645799
       vertices: []
       indices: 
       edges: []
@@ -160,8 +285,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      PopupBG_0: 5589616708874710389
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

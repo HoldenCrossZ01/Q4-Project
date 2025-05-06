@@ -1,25 +1,13 @@
 fileFormatVersion: 2
-guid: d9f9a55d63444ce4fb5acbdba3ce2e15
+guid: eb9133de80ff87041bbe19396a1c07a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5392625257635239999
-    second: Untitled-2_0
+      213: -3693727183170801550
+    second: jester_falling_withdagger_spritedone_0
   - first:
-      213: -4548455104902304520
-    second: Untitled-2_1
-  - first:
-      213: -340510569268801026
-    second: Untitled-2_2
-  - first:
-      213: 33363725635070822
-    second: Untitled-2_3
-  - first:
-      213: 2607614108378703750
-    second: Untitled-2_4
-  - first:
-      213: 2647721087300645799
-    second: Untitled-2_5
+      213: 604367369521884269
+    second: jester_falling_withdagger_spritedone_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled-2_0
+      name: jester_falling_withdagger_spritedone_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 127
-        height: 132
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,42 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c72ad746eb8925b0800000000000000
-      internalID: -5392625257635239999
+      spriteID: 27076e572be3dbcc0800000000000000
+      internalID: -3693727183170801550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled-2_1
+      name: jester_falling_withdagger_spritedone_1
       rect:
         serializedVersion: 2
-        x: 164
-        y: 3
-        width: 128
-        height: 136
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8fc6c7b4e24a0e0c0800000000000000
-      internalID: -4548455104902304520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled-2_2
-      rect:
-        serializedVersion: 2
-        x: 347
+        x: 160
         y: 0
-        width: 103
-        height: 133
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,74 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef1977cf073464bf0800000000000000
-      internalID: -340510569268801026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled-2_3
-      rect:
-        serializedVersion: 2
-        x: 525
-        y: 0
-        width: 58
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66bacd6b128867000800000000000000
-      internalID: 33363725635070822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled-2_4
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 0
-        width: 131
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 687a531473b103420800000000000000
-      internalID: 2607614108378703750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled-2_5
-      rect:
-        serializedVersion: 2
-        x: 819
-        y: 5
-        width: 133
-        height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a3bdd8fc489eb420800000000000000
-      internalID: 2647721087300645799
+      spriteID: d6c6036abe4236800800000000000000
+      internalID: 604367369521884269
       vertices: []
       indices: 
       edges: []
@@ -276,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 05606cd67a5688645b976e6dd0cc6ee8
     internalID: 0
     vertices: []
     indices: 
@@ -286,12 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled-2_0: -5392625257635239999
-      Untitled-2_1: -4548455104902304520
-      Untitled-2_2: -340510569268801026
-      Untitled-2_3: 33363725635070822
-      Untitled-2_4: 2607614108378703750
-      Untitled-2_5: 2647721087300645799
+      jester_falling_withdagger_spritedone_0: -3693727183170801550
+      jester_falling_withdagger_spritedone_1: 604367369521884269
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

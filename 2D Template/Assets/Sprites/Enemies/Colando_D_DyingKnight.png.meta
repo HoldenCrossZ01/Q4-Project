@@ -1,10 +1,28 @@
 fileFormatVersion: 2
-guid: 90efe9e13e3ebbe46a06acad6ceb05db
+guid: 9cc8d9dfb54306845a02615dc28fc9bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -498404772285622779
-    second: Untitled67_20250506084710_0
+      213: 767526823926091229
+    second: Colando_D_DyingKnight_0
+  - first:
+      213: 6714651290490263939
+    second: Colando_D_DyingKnight_1
+  - first:
+      213: -5189585845133805693
+    second: Colando_D_DyingKnight_2
+  - first:
+      213: 1328906400221678465
+    second: Colando_D_DyingKnight_3
+  - first:
+      213: 7119524399846603072
+    second: Colando_D_DyingKnight_4
+  - first:
+      213: 312038453748600428
+    second: Colando_D_DyingKnight_5
+  - first:
+      213: -6768265516432454916
+    second: Colando_D_DyingKnight_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,23 +144,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled67_20250506084710_0
+      name: Colando_D_DyingKnight_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1980
-        height: 1080
+        width: 160
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5065e81108f4519f0800000000000000
-      internalID: -498404772285622779
+      spriteID: dddc2bf649dc6aa00800000000000000
+      internalID: 767526823926091229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colando_D_DyingKnight_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3895a40e5cb3f2d50800000000000000
+      internalID: 6714651290490263939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colando_D_DyingKnight_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38777616b23eaf7b0800000000000000
+      internalID: -5189585845133805693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colando_D_DyingKnight_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bc4f48459317210800000000000000
+      internalID: 1328906400221678465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colando_D_DyingKnight_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049359688b1adc260800000000000000
+      internalID: 7119524399846603072
       vertices: []
       indices: 
       edges: []
@@ -151,7 +257,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1e11f7dd99e4df54d84c8f5838b1f4c4
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +267,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled67_20250506084710_0: -498404772285622779
+      Colando_D_DyingKnight_0: 767526823926091229
+      Colando_D_DyingKnight_1: 6714651290490263939
+      Colando_D_DyingKnight_2: -5189585845133805693
+      Colando_D_DyingKnight_3: 1328906400221678465
+      Colando_D_DyingKnight_4: 7119524399846603072
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

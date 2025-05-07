@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Secene : MonoBehaviour
 {
-public void PlayGame()
+    public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
@@ -26,6 +26,10 @@ public void PlayGame()
     public void CreditLoader5()
     {
         SceneManager.LoadScene("Meadow");
+    }
+    public void CreditLoader6()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 
 }

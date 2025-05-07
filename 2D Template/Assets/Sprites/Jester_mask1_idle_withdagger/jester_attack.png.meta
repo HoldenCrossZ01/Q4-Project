@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 90efe9e13e3ebbe46a06acad6ceb05db
+guid: fc07ff7f9f1bb3c459591ec7a0b66fcd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -498404772285622779
-    second: Untitled67_20250506084710_0
+      213: -3079303988265037308
+    second: jester_attack_0
+  - first:
+      213: -996758829130322166
+    second: jester_attack_1
+  - first:
+      213: 4168782298377549170
+    second: jester_attack_2
+  - first:
+      213: 8451169373049205125
+    second: jester_attack_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled67_20250506084710_0
+      name: jester_attack_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1980
-        height: 1080
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5065e81108f4519f0800000000000000
-      internalID: -498404772285622779
+      spriteID: 402d408665d1445d0800000000000000
+      internalID: -3079303988265037308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester_attack_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fe3fe302dca22f0800000000000000
+      internalID: -996758829130322166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester_attack_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275fab8c96d7ad930800000000000000
+      internalID: 4168782298377549170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester_attack_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5813241c4c5984570800000000000000
+      internalID: 8451169373049205125
       vertices: []
       indices: 
       edges: []
@@ -151,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3caed9899fc555a4ab2e2dbe320fc70a
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled67_20250506084710_0: -498404772285622779
+      jester_attack_0: -3079303988265037308
+      jester_attack_1: -996758829130322166
+      jester_attack_2: 4168782298377549170
+      jester_attack_3: 8451169373049205125
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

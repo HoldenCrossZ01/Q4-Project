@@ -4,6 +4,7 @@ public class AiChase : MonoBehaviour
 {
     public GameObject player;
     public float speed;
+    public float distanceBetween;
 
     private float distance;
 

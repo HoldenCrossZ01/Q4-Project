@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/DeathScreen.unity
+    path: Assets/Scenes/DeathWin/DeathScreen.unity
     guid: 8e7475dceb4f7ab44a1f84980badcfa0
   - enabled: 1
     path: Assets/Joshua's File/Main Menu.unity

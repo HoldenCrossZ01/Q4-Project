@@ -57,7 +57,7 @@ public class PDEvent : MonoBehaviour
     {
         startTransferTimer = true;
         //boomParticle.Play();
-        Instantiate(boomParticle, transform.position, Quaternion.identity);
+        //Instantiate(boomParticle, transform.position, Quaternion.identity);
     }
     
 }

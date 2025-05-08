@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Colando_D_JailCell (2)_0: -5937530595879595275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

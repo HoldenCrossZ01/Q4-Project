@@ -13,19 +13,27 @@ public class PlayerMovement : MonoBehaviour
     public float jumpHeight;
     private Rigidbody2D _rb;
     private Vector2 _moveAmount;
-    private bool isJumping = false;
+    private bool isGrounded = true;
     private bool facingRight;
+
+    Animator animator;
     
 
     void Awake()
     {
         //Unity prefers _rb to rb, and this section will grasp onto the rigidbody
         _rb = GetComponent<Rigidbody2D>();
+
+        animator = GetComponent<Animator>();
     }
 
 
     void Update()
     {
+        
+        animator.SetFloat("xVelocity", (_rb.linearVelocity.x));
+        animator.SetFloat("yVelocity", _rb.linearVelocity.y);
+
         //Apply the velocity to the X axis
         _rb.linearVelocityX = _moveAmount.x * movementSpeed;
 
@@ -56,13 +64,14 @@ public class PlayerMovement : MonoBehaviour
     }
     public void HandleJump(InputAction.CallbackContext ctx)
     {
-        if (isJumping == false)
+        if (isGrounded == true)
         {
             if (ctx.ReadValue<float>() == 1)
             {
 
                 _rb.AddForce(Vector2.up * jumpHeight);
-                isJumping = true;
+                isGrounded = false;
+                animator.SetBool("isJumping", !isGrounded);
 
                 FindFirstObjectByType<AudioManager>().PlaySFX(jump);
             }
@@ -101,7 +110,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ground"))
         {
-            isJumping = false;
+            isGrounded = true;
+            animator.SetBool("isJumping", !isGrounded);
         }
     }
 }

@@ -3,30 +3,34 @@ using UnityEngine;
 public class AiChase : MonoBehaviour
 {
     public GameObject player;
-    public float speed;
-    public float distanceBetween;
+    public float speed = 5f;
+    public float distanceBetween = 4f;
+    public float damage = 10f;
+    public float damageCooldown = 1f; // Seconds between hits
 
-    private float distance;
+    private float lastDamageTime;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-        direction.Normalize();
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        if (player == null) return;
 
-        if (distance < 4)
+        float distance = Vector2.Distance(transform.position, player.transform.position);
+
+        if (distance < distanceBetween)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
-            //        transform.position = (Vector3.forward * angle);
+            // Move toward the player
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
 
+            // Deal damage if enough time has passed
+            if (Time.time - lastDamageTime >= damageCooldown)
+            {
+                PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+                if (playerHealth != null)
+                {
+                    playerHealth.TakeDamage(damage);
+                    lastDamageTime = Time.time;
+                }
+            }
         }
     }
 }

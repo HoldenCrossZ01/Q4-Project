@@ -64,10 +64,15 @@ public class PlayerMovement : MonoBehaviour
                 _rb.AddForce(Vector2.up * jumpHeight);
                 isJumping = true;
 
+                FindFirstObjectByType<AudioManager>().PlaySFX(jump);
             }
         }
        
     }
+
+    [Header("SFX")]
+    [SerializeField] private AudioClip jump;
+
 
     public void HandleDash(InputAction.CallbackContext ctx)
     {

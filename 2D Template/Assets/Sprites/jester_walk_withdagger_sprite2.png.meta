@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jester_walk_withdagger_sprite2_0: -1370044097951850421
+      jester_walk_withdagger_sprite2_1: 1739087480672581234
+      jester_walk_withdagger_sprite2_2: 8018883014216687626
+      jester_walk_withdagger_sprite2_3: -2469372006709394036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

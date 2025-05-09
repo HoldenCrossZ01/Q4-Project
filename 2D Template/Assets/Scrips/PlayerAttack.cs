@@ -12,9 +12,15 @@ public class PlayerAttack : MonoBehaviour
     public int damage;
     private bool canAttack = true;
 
-   
+    Animator animator;
+
+   void Awake()
+   {
+    animator = GetComponent<Animator>();
+   }
     void Update()
     {
+      
        int minutes = Mathf.FloorToInt(remainingTime / 60);
       int seconds = Mathf.FloorToInt(remainingTime % 60);
       timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
@@ -50,6 +56,7 @@ public class PlayerAttack : MonoBehaviour
         remainingTime += 0.30f;
         attackPos.gameObject.SetActive(true);
         canAttack = false;
+        animator.SetBool("isSwinging", !canAttack);
         
       }
     }

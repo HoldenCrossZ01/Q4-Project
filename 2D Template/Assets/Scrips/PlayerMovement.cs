@@ -106,12 +106,18 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    // private void OnCollisionEnter2D(Collision2D other)
+    // {
+    //     if (other.gameObject.CompareTag("Ground"))
+    //     {
+    //         isGrounded = true;
+    //         animator.SetBool("isJumping", !isGrounded);
+    //     }
+    // }
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-            animator.SetBool("isJumping", !isGrounded);
-        }
+        isGrounded = true;
+        animator.SetBool("isJumping", !isGrounded);
     }
 }

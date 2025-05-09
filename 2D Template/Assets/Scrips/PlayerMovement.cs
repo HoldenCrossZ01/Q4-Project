@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         
         animator.SetFloat("xVelocity", (_rb.linearVelocity.x));
